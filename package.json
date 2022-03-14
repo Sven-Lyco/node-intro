@@ -2,12 +2,20 @@
   "name": "intro",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
   "main": "add.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sven-Lyco/node-intro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sven-Lyco/node-intro/issues"
+  },
+  "homepage": "https://github.com/Sven-Lyco/node-intro#readme",
+  "description": ""
 }
