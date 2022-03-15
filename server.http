@@ -1,0 +1,7 @@
+GET http://localhost:4000/
+###
+GET http://localhost:4000/types
+###
+GET http://localhost:4000/places
+###
+GET http://localhost:4000/episodes
