@@ -17,5 +17,8 @@
     "url": "https://github.com/Sven-Lyco/node-intro/issues"
   },
   "homepage": "https://github.com/Sven-Lyco/node-intro#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "vercel": "^24.0.0"
+  }
 }
