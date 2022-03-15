@@ -1,7 +1,16 @@
-GET http://localhost:4000/
+@baseUrl = http://localhost:4000
+
 ###
-GET http://localhost:4000/types
+GET {{baseUrl}}/types
+
 ###
-GET http://localhost:4000/places
+GET {{baseUrl}}/places
+
 ###
-GET http://localhost:4000/episodes
+GET {{baseUrl}}/episodes
+
+### GET something
+GET {{baseUrl}}/
+
+### POST
+POST {{baseUrl}}/

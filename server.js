@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify(["episode 1"]));
     return;
   } else {
-    res.end(JSON.stringify([`URL: ${url}, Method: ${method}`]));
+    res.end(`URL: ${url}, Method: ${method}`);
   }
 });
 
