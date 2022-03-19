@@ -1,3 +1,7 @@
 export default function handler(req, res) {
-  res.json(["episode 1"]);
+  if (req.method === "POST") {
+    console.log(req.body);
+  }
+
+  res.status(200).json(["episode 1"]);
 }
